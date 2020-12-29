@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync LeetCode Today Problem
-        uses: spencercjh/sync-leetcode-today-problem@0.3.0
+        uses: spencercjh/sync-leetcode-today-problem@0.3.1
         with:
           language: Golang
           need_test: False
